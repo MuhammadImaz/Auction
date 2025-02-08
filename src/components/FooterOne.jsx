@@ -10,7 +10,7 @@ import PlayStore from '../assets/Footer/PlayStore.svg';
 function FooterOne() {
   return (
     <footer className="footer bg-[#0C0C1D] py-10 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           {/* Logo Section */}
           <div className="mb-6 md:mb-0 flex flex-col items-center md:items-start">
@@ -25,8 +25,7 @@ function FooterOne() {
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:underline">Home</a></li>
                 <li><a href="#" className="hover:underline">About</a></li>
-                <li><a href="#" className="hover:underline">Careers</a></li>
-                <li><a href="#" className="hover:underline">Investors</a></li>
+               
               </ul>
             </div>
 
@@ -36,9 +35,7 @@ function FooterOne() {
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:underline">Auctions</a></li>
                 <li><a href="#" className="hover:underline">Get Started</a></li>
-                <li><a href="#" className="hover:underline">Contact</a></li>
-                <li><a href="#" className="hover:underline">Pricing</a></li>
-                <li><a href="#" className="hover:underline">Inventory Near You</a></li>
+               
               </ul>
             </div>
 
